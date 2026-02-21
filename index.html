@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Lilian">
+        <title>Bear Ninja Hunter</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant">
+    </head>
+    <body>
+        <h2>Bear, Ninja, Hunter</h2>
+        <p>Play against the computer!</p>
+        <div class="centered-flex">
+        <ul>
+            <li>The Bear Beats the Hunter.</li>
+            <li>The Hunter beats the Ninja.</li>
+            <li>And the Ninja beats the Bear.</li>
+        </ul>
+        </div>
+        <p>Click a button below to select your choice.</p>
+        <div class="rule-block">
+            <hr>
+            <div class="centered-flex choices">
+                <button class="choice" data-value="Bear">Bear</button>
+                <button class="choice" data-value="Ninja">Ninja</button>
+                <button class="choice" data-value="Hunter">Hunter</button>
+            </div>
+            <hr>
+        </div>
+        <div class="rule-block" id="gameResults" hidden>
+            <div id="gameOutput"></div>
+            <hr>
+            <button onclick="playAgain()">Play Again?</button>
+            <hr>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
